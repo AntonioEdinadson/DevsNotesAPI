@@ -1,0 +1,30 @@
+{
+  "name": "devsnotes",
+  "version": "1.0.0",
+  "description": "Devsnotes: (sistema dea anotações simples)",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioEdinadson/DevsNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioEdinadson/DevsNotes/issues"
+  },
+  "homepage": "https://github.com/AntonioEdinadson/DevsNotes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
